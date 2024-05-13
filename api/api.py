@@ -34,7 +34,7 @@ def create_board(name):
     return res
 
 def create_list1(boardId):
-    name = "list1"
+    name = "list"
     params = {
         "name": name,
         "key": api_key,
@@ -45,7 +45,7 @@ def create_list1(boardId):
     return res
 
 def create_list2(boardId):
-    name = "list2"
+    name = "list"
     params = {
         "name": name,
         "key": api_key,
