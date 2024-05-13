@@ -8,7 +8,7 @@ from common.common import *
 def step_create_board(name):
     res = create_board(name)
     assert res.status_code == 200
-    assert res.json()['name'] == "hello1"
+    assert res.json()['name'] == "boardtest"
     time.sleep(0.5)
     Id = res.json()["id"]
     return Id
